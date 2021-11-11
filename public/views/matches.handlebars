@@ -1,0 +1,36 @@
+<div class="text-center">
+  <h2>Your matches!</h2>
+
+  <div class="form-group">
+    <div class="mt-3">
+      <a
+        href="https://www.niche.com/colleges/{{topRAW}}"
+        class="btn btn-gold"
+      >{{top}}</a>
+    </div>
+
+    <div class="mt-3">
+      <a
+        href="https://www.niche.com/colleges/{{secondRAW}}"
+        class="btn btn-silver"
+      >{{second}}</a>
+    </div>
+
+    <div class="mt-3">
+      <a
+        href="https://www.niche.com/colleges/{{thirdRAW}}"
+        class="btn btn-bronze"
+      >{{third}}</a>
+    </div>
+
+    {{#each otherMatches}}
+      <div class="mt-3">
+        <a
+          href="https://www.niche.com/colleges/{{raw}}"
+          class="btn btn-green"
+        >{{name}}</a>
+      </div>
+    {{/each}}
+
+  </div>
+</div>

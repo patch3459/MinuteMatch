@@ -1,0 +1,380 @@
+
+
+html, body{
+  height:  100%;
+  width: 100%;
+}
+
+@media(min-width: 768px){
+  .main-body{
+    display: flex;
+    flex-direction: row;
+  }
+  .textAndButton{
+    flex: 6;
+  }
+  .threeVideos{
+    flex: 6;
+    display: flex;
+    flex-direction: row;
+  }
+  .topPart{
+    flex: 6;
+  }
+}
+
+ @media(max-width:1200px){
+  .main-body{
+    text-align: center;
+
+  }
+  } 
+
+
+
+        buttonLink:link {
+            text-decoration: underline;
+        }
+        buttonLink:hover {
+            text-decoration: none;
+        }
+
+
+
+
+
+/* for the matches page */ 
+
+  .mainAreaMatch{
+    flex: 11;
+  }
+  .wrapper{
+    display: flex;
+    justify-content: space-around;
+  }
+  .filler{
+    flex: 3;
+  }
+
+/* .bottomPart{
+    flex: 6;
+    display: flex;
+  }
+
+  .notepadkid{
+    order: 1;
+  }
+*/
+}
+
+/* @media(max-width: 768px){
+  .main-body{
+    text-align: center;
+  }
+  .minute{
+    font-size: 10px;
+  }
+  .perfectcollege{
+      font-size:25px;
+  }
+} */
+.same{
+    list-style-type: none;
+
+}
+
+.navbar{
+  background-color: rgba(255, 255, 255, 1.0) ;
+  border:0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  font-size: 35px;
+  transition-duration: 0.4s;
+  font-family: 'Dosis', sans-serif;
+}
+
+ul a:hover {
+  font-size: 34px;
+  color: black;
+}
+ul a {
+  float: left;
+}
+
+.nav.navbar-nav li a {
+    color: black;
+}
+
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 36px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color: black;
+  background-color: #ffffff;
+}
+
+.active {
+  background-color: #ffffff;
+}
+
+.minute {
+  font-size: 150px;
+  font-family: 'Dosis', sans-serif;
+  margin-left: 50px;
+}
+
+.perfectcollege {
+  font-size:35px;
+  font-family: 'Dosis', sans-serif;
+  margin-left: 50px;
+}
+
+p {
+   margin: 0px;
+   padding: 0px;
+}
+
+.getstarted {
+  background-color: #31E54C;
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+  padding: 20px 50px;
+  font-size: 35px;
+  font-family: 'Dosis', sans-serif;
+  transition-duration: 0.4s;
+  margin-left: 50px;
+}
+
+.getstarted:hover {
+  background-color: #0eb342;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*
+.notepadkid {
+  position: absolute;
+  left: 700px;
+  top: 50px;
+}
+
+.notepadgirl {
+  position: absolute;
+  left: 450px;
+  top: 400px;
+}
+
+.bookgirl {
+  position: absolute;
+  left: 950px;
+  top: 400px;
+}
+
+*/
+
+
+
+
+
+.sectiontitles {
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.questions {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.submitbutton {
+  text-align: center;
+}
+
+#submit {
+    background-color: #31E54C;
+    border-radius:6px;
+    color: #fff;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+
+    padding: 20px 50px;
+
+}
+
+#submit:hover {
+    border: none;
+    background:#0eb342;
+    box-shadow: 0px 0px 1px #777;
+}
+
+
+.btn {
+  padding: 15px 55px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  color: black;
+  position: relative;
+  display: inline-block;
+  border-radius: 50px;
+  width: 60%;
+  font-family: 'Dosis', sans-serif;
+}
+
+
+
+.btns {
+  padding: 15px 55px;
+  font-size: 15px;
+  text-decoration: none;
+  margin: 20px;
+  color: black;
+  position: relative;
+  display: inline-block;
+  border-radius: 50px;
+  width: 60%;
+  font-family: 'Dosis', sans-serif;
+}
+
+.gold {
+  background-color: rgb(255, 239, 9);
+  border-radius: 2px;
+  transition: all 0.2s ease;
+  transform: scale(1);
+    border-radius: 50px;
+}
+.gold:hover {
+  background-color: rgb(255, 239, 9);
+    color: black;
+
+    border-radius: 50px;
+/*  big button scale thingy  */
+  transform: scale(1.1) perspective(1px)
+}
+
+
+.silver {
+  background-color: rgb(235, 235, 235);
+  border-radius: 2px;
+  transition: all 0.2s ease;
+  transform: scale(1);
+    border-radius: 50px;
+}
+.silver:hover {
+  background-color: rgb(235, 235, 235);
+    border-radius: 50px;
+      color: black;
+
+/*  big button scale thingy  */
+  transform: scale(1.1) perspective(1px)
+}
+
+
+.bronze {
+  background-color: rgba(194, 143, 4, 0.692);
+  border-radius: 2px;
+  transition: all 0.2s ease;
+  transform: scale(1);
+    border-radius: 50px;
+}
+.bronze:hover {
+  background-color: rgb(194, 143, 4, 0.692);
+    border-radius: 50px;
+      color: black;
+
+/*  big button scale thingy  */
+  transform: scale(1.1) perspective(1px)
+}
+
+
+.green {
+  background-color: #31E54C;
+  border-radius: 2px;
+  transition: all 0.2s ease;
+  transform: scale(1);
+    border-radius: 50px;
+}
+.green:hover {
+  background-color: #31E54C;
+    border-radius: 50px;
+      color: black;
+
+/*  big button scale thingy  */
+  transform: scale(1.1) perspective(1px)
+}
+
+
+
+
+.testcap {
+  background-color: rgb(241, 0, 241);
+  border-radius: 2px;
+  border-radius: 50px;
+}
+
+
+.purple {
+  background-color: rgb(241, 0, 241);
+  border-radius: 2px;
+  transition: all 0.2s ease;
+  transform: scale(1);
+    border-radius: 50px;
+}
+
+
+
+.purple:hover {
+  background-color: rgb(241, 0, 241);
+    border-radius: 50px;
+          color: black;
+
+/*  big button scale thingy  */
+  transform: scale(1.1) perspective(1px)
+}
+
+
+
+
+
+
+
+
+
+
+
+.questions {
+    font-family: 'Dosis', sans-serif;
+}
+
+
+.questionshead {
+    text-align: center;
+      padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+p.ex4 {display: inline-block;}
+
+.centathat {
+  margin: auto;
+  width: 70%;
+  border: 3px solid green;
+}

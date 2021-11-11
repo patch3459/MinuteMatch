@@ -1,0 +1,12 @@
+Dependencies
+
+for each do npm i name
+
+express
+express-handlebars
+moment-timezone
+node-fetch@2.6.5 
+body-parser
+multer
+serve-favicon
+cookie-parser
